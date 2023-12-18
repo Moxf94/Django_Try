@@ -20,7 +20,9 @@ integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4
         <ul>
             <li><a href="{% url 'home' %}"><i class="fas fa-home"></i>Главная</a></li>
             <li><a href="{% url 'about' %}"><i class="fas fa-address-card"></i>Про нас</a></li>
-           <li> <a href=""><i class="fas fa-phone"></i>Контакты</a></li>
+            <li><a href="{% url 'news_home' %}"><i class="fas fa-newspaper"></i></i>Новости</a></li>
+            <li><a href=""><i class="fas fa-phone"></i>Контакты</a></li>
+            <li><a href="{% url 'create' %}"><button class="btn btn-info"><i class="fas fa-p;us-circle"></i>Добавить</button></a></li>
         </ul>
     </aside>
     <main>
